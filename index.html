@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yekta Okdan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="shortcut icon" href="/img/pngegg.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-left">
+        <h1 class="title">Yekta Okdan</h1>
+        <h3 class="subtitle">Software Developer</h3>
+      </div>
+
+      <div class="footer-social-links">
+        <a
+          class="logoOne"
+          href="https://twitter.com/3yekta"
+          title="Twitter"
+          target="_blank"
+          ><i class="fa fa-twitter"></i
+        ></a>
+        <a
+          class="logoTwo"
+          href="https://www.linkedin.com/in/yektaokdan/"
+          title="LinkedIn+"
+          target="_blank"
+          ><i class="fa fa-linkedin"></i
+        ></a>
+        <a
+          class="logoThree"
+          href="https://github.com/yektaokdan"
+          title="GitHub"
+          target="_blank"
+          ><i class="fa fa-github"></i
+        ></a>
+        <a
+          class="logoFour"
+          href="https://www.instagram.com/3yekta/"
+          title="Instagram"
+          target="_blank"
+          ><i class="fa fa-instagram"></i
+        ></a>
+      </div>
+
+      <div class="theme-container shadow-dark">
+        <img
+          id="theme-icon"
+          src="https://www.uplooder.net/img/image/2/addf703a24a12d030968858e0879b11e/moon.svg"
+          alt="ERR"
+        />
+      </div>
+      <div class="loader-div">
+        <span class="loader">
+          <span></span>
+          <span></span>
+        </span>
+      </div>
+    </div>
+
+    <script src="three.min.js"></script>
+    <script src="vanta.fog.min.js"></script>
+    <script src="loader.js"></script>
+    <script src="darkMode.js"></script>
+    <script>
+      VANTA.FOG({
+        el: "body",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.0,
+        minWidth: 200.0,
+        highlightColor: 0x4e00ff,
+        midtoneColor: 0x720303,
+        lowlightColor: 0xed,
+        baseColor: 0x0,
+        blurFactor: 0.65,
+      });
+    </script>
+  </body>
+</html>
