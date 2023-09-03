@@ -1,2 +1,2 @@
 # yektaokdan.github.io
-personal Web site
+personal website
