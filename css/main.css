@@ -88,7 +88,7 @@ body {
  * ## links
  * ------------------------------------------------------------------- */
 a {
-  color: #3ea589;
+  color: #ff8f2d;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -430,7 +430,7 @@ ul.disc li::before {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #3ea589;
+  background: #ff8f2d;
   position: absolute;
   left: -17px;
   top: 11px;
@@ -439,7 +439,7 @@ ul.disc li::before {
 
 dt {
   margin: 0;
-  color: #3ea589;
+  color: #ff8f2d;
 }
 
 dd {
@@ -924,7 +924,7 @@ textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-  -webkit-text-fill-color: #3ea589;
+  -webkit-text-fill-color: #ff8f2d;
   transition: background-color 5000s ease-in-out 0s;
 }
 
@@ -981,8 +981,8 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-  background: #3ea589;
-  border-color: #3ea589;
+  background: #ff8f2d;
+  border-color: #ff8f2d;
   color: #ffffff;
 }
 
@@ -996,8 +996,8 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
-  background: #2e7b6c;
-  border-color: #2e7b6c;
+  background: #f37709;
+  border-color: #f37709;
 }
 
 /* button modifiers
@@ -1250,7 +1250,7 @@ input::-moz-focus-inner {
 }
 
 .stats-tabs li a:hover {
-  color: #3ea589;
+  color: #ff8f2d;
 }
 
 .stats-tabs li a em {
@@ -1293,7 +1293,7 @@ input::-moz-focus-inner {
 }
 
 .skill-bars li .progress {
-  background: #3ea589;
+  background: #ff8f2d;
   position: relative;
   height: 100%;
 }
@@ -1307,7 +1307,7 @@ input::-moz-focus-inner {
   color: #ffffff;
   font-size: 1.1rem;
   line-height: 1;
-  background: #3ea589;
+  background: #ff8f2d;
   padding: 0.6rem 0.6rem;
   border-radius: 3px;
 }
@@ -1319,7 +1319,7 @@ input::-moz-focus-inner {
   margin-left: -5px;
   border-right: 5px solid transparent;
   border-left: 5px solid transparent;
-  border-top: 5px solid #3ea589;
+  border-top: 5px solid #ff8f2d;
   content: "";
 }
 
@@ -1447,7 +1447,7 @@ body.menu-is-open {
   line-height: 1.333;
   text-transform: uppercase;
   letter-spacing: 0.25rem;
-  color: #3ea589;
+  color: #ff8f2d;
   margin-top: 0;
   margin-bottom: 3rem;
   position: relative;
@@ -1726,7 +1726,7 @@ body.menu-is-open {
   margin-bottom: 7.2rem;
   margin-top: 1.2rem;
   padding-right: 140px;
-  color: #3ea589;
+  color: #ff8f2d;
   position: relative;
 }
 
@@ -1735,7 +1735,7 @@ body.menu-is-open {
   display: block;
   height: 1px;
   width: 110px;
-  background-color: #3ea589;
+  background-color: #ff8f2d;
   position: absolute;
   top: 50%;
   right: 0;
@@ -1793,11 +1793,11 @@ body.menu-is-open {
 }
 
 .header-nav__list a:hover::before {
-  color: #3ea589;
+  color: #ff8f2d;
 }
 
 .header-nav__list .current a::before {
-  color: #3ea589;
+  color: #ff8f2d;
 }
 
 .header-nav__social {
@@ -2156,7 +2156,7 @@ body.menu-is-open {
   height: 9rem;
   width: 9rem;
   border-radius: 50%;
-  background-color: #3ea589;
+  background-color: #ff8f2d;
   background-image: url(../images/icons/icon-play.svg);
   background-repeat: no-repeat;
   background-position: 55% center;
@@ -2255,7 +2255,7 @@ body.menu-is-open {
 
 .home-content__scroll .scroll-link:hover,
 .home-content__scroll .scroll-link:focus {
-  color: #3ea589;
+  color: #ff8f2d;
 }
 
 .home-content__scroll::after {
@@ -2739,7 +2739,7 @@ html.no-csstransitions .home-content__main {
   font-weight: 700;
   text-align: center;
   color: #ffffff;
-  background-color: #3ea589;
+  background-color: #ff8f2d;
   height: 48px;
   width: 48px;
   line-height: 48px;
@@ -2870,7 +2870,7 @@ html.no-csstransitions .home-content__main {
 
 .item-service__icon {
   float: left;
-  color: #3ea589;
+  color: #ff8f2d;
   font-size: 4.5rem;
   margin-top: -1.8rem;
 }
@@ -3270,7 +3270,7 @@ html.no-csstransitions .home-content__main {
 
 .clients a:hover,
 .clients a:focus {
-  color: #3ea589;
+  color: #ff8f2d;
 }
 
 .clients li {
@@ -3453,7 +3453,7 @@ html.no-csstransitions .home-content__main {
   line-height: 1.6;
   text-transform: uppercase;
   letter-spacing: 0.3rem;
-  color: #3ea589;
+  color: #ff8f2d;
 }
 
 .testimonials__author span {
@@ -3553,7 +3553,7 @@ html.no-csstransitions .home-content__main {
 .s-contact {
   padding-top: 16.2rem;
   padding-bottom: 21rem;
-  background-color: #0f8162;
+  background-color: #ff8f2d;
   color: rgba(255, 255, 255, 0.6);
   text-align: center;
   position: relative;
@@ -3763,7 +3763,7 @@ footer {
   padding-top: 9rem;
   padding-bottom: 6rem;
   color: rgba(255, 255, 255, 0.6);
-  background-color: #0f8162;
+  background-color: #ff8f2d;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   text-align: center;
   position: relative;
